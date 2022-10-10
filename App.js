@@ -82,7 +82,7 @@ async function schedulePushNotification(quote) {
       title: "Daily quote",
       body: quote,
     },
-    trigger: { timezone: "Europe/Tallinn" },
+    trigger,
   });
 }
 
