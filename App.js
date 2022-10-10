@@ -24,7 +24,7 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    schedulePushNotification(quotes[randomNumber]?.text);
+    schedulePushNotification(randomQuote);
   }, []);
 
   useEffect(() => {
